@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: mrcp-api
+  title: mrcp-api
+  description: "Docker-compose for LumenVox MRCP API (Media Server)"
+  tags:
+    - shell
+  annotations:
+    backstage.io/source-location: url:https://github.com/Invoca/mrcp-api/
+    github.com/project-slug: Invoca/mrcp-api
+    buildkite.com/project-slug: invoca/mrcp-api
+spec:
+  type: service
+  lifecycle: production
+  owner: calls
+  system: telephony-system
