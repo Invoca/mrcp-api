@@ -1,7 +1,7 @@
 # Use base LumenVox MRCP API image
 # NOTE: The version should always stay in lockstep with:
-# https://github.com/Invoca/lumenvox-kubernetes-rendering/blob/5a20683105fab839b33d55e19505c9ddf7870eeb/values.yaml#L349
-FROM lumenvox/mrcp-api:5.4
+# https://github.com/Invoca/lumenvox-kubernetes-rendering/blob/f3a82a29900d67e692e091cc9036b7f24188e853/values.yaml#L363
+FROM lumenvox/mrcp-api:6.2
 
 ### Install extra packages
 RUN apt-get update && \
